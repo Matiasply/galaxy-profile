@@ -15,11 +15,10 @@ username: Matiasply
 # Profile information displayed in the galaxy header
 profile:
   name: "Matias Monteiro"
-  tagline: "Data science & IA student at UFPB"
+  tagline: "Data science & AI student at UFPB"
   company: "Federal University of Paraíba"
   location: "João Pessoa, PB-BR"
-  bio: |
-    Backend developer in progress 🚀  
+  bio: | 
     Data Science student driven by curiosity and structure.  
     Building complete systems from database to interface — exploring the galaxy of technology one project at a time. ✨
   philosophy: '"Trying to be better!"'
@@ -37,8 +36,8 @@ galaxy_arms:
     color: "dendrite_violet"
     items:
       - "HTML5"
-      - "JavaScript"
       - "CSS3"
+      - "JavaScript"
   - name: "Backend"
     color: "synapse_cyan"
     items:
@@ -59,9 +58,9 @@ galaxy_arms:
 projects:
   - repo: "Matiasply/ProfessorOakWouldBeProud"
     arm: 0
-    description: "An analysis of data from Kanto Pokémon."
+    description: "An analysis of data from Kanto Pokémon"
   - repo: "Matiasply/Boss-Final-Store"
-    arm: 1
+    arm: 2
     description: "Academic e-commerce project developed for a Database course, focused on relational modeling, SQL operations, and backend integration."
 
 # Theme color overrides (optional — defaults to deep space palette)
@@ -89,6 +88,8 @@ stats:
 # Language display settings
 languages:
   exclude:                     # Languages to hide from the telemetry chart
+    - "HTML"
+    - "CSS"
     - "Shell"
     - "Makefile"
   max_display: 8               # Maximum number of languages to show
